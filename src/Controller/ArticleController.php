@@ -16,7 +16,7 @@ class ArticleController extends AbstractController {
   public function homepage()
 
   {
-      return new Response("blaabla");
+      return new Response("Site totalement normal");
 
   }
 
@@ -27,9 +27,9 @@ class ArticleController extends AbstractController {
   public function show($slug) {
 
       $comments = [
-          'I ate a normal rock once. It did NOT taste like bacon!',
-          'Woohoo! I\'m going on an all-asteroid diet!',
-          'I like bacon too! Buy some from my site! bakinsomebacon.com',
+          'Ce mec est vraiment incroyable!',
+          'Putain comment il est beau',
+          'Choqué du charisme de cet homme',
       ];
 
       dump($slug,$this);
